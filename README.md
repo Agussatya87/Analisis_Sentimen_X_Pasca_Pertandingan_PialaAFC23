@@ -1,3 +1,15 @@
-📘 Analisis Sentimen X Pasca Pertandingan Piala AFC 23
-Deskripsi Singkat
+# 📘 Analisis Sentimen X Pasca Pertandingan Piala AFC 23
+### Deskripsi Singkat
 Proyek ini melakukan analisis sentimen dari data media sosial (X/Twitter) yang berfokus pada reaksi pasca pertandingan Piala AFC 2023. Menggunakan teknik Natural Language Processing (NLP) untuk mengklasifikasi sentimen sebagai positif, netral, atau negatif.
+
+# 🚀 Fitur
+- Scraping data tweet relevan tentang pertandingan Piala AFC 2023.
+- Pre-processing teks: tokenisasi, pembersihan, stopword removal.
+- Training model klasifikasi menggunakan SVM dan evaluasi menggunakan confusion matrix dan classification report.
+- Visualisasi hasil prediksi (bar chart, wordcloud, dsb).
+
+# 🛠️ Teknologi
+- Python
+- pandas, scikit-learn, matplotlib, seaborn, nltk (stopwords, tokenizer)
+- Tweepy atau snscrape untuk scraping tweet
+- Jupyter Notebook
